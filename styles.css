@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: #CFD2CF;
+}
+img{
+    width: 280px;
+    height: 280px;
+    padding: 5%;
+    border-radius: 20px;
+    
+}
+h5{
+    font-size: 1.1rem;
+    padding: 0 4% 4%;
+    font-family: 'Poppins', sans-serif;
+    color:#293462 ;
+    font-weight: 700;
+}
+p{
+    color: #40514E;
+    padding: 2% 8% 0%;
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+    transition: all 1s;
+}
+a:hover , a:focus{
+    color: cornflowerblue;
+}
+.img{
+ text-align: center;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 280px;
+    height: 415px;
+    border-radius: 10px;
+    box-shadow: -10px 5px 50px;
+}
+.attribution{
+    position: absolute;
+    left:50%;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+}
+.attribution span{
+    white-space: nowrap;
+}
+@media screen and (min-width:300px) and (max-width:950px) {
+}
